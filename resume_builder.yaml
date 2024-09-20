@@ -1,0 +1,126 @@
+cv:
+  name: Bat Nemekhbold
+  email: batbold78@gmail.com
+  phone: tel:+82 10-4882-9902
+  # website: https://bxtbold.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: bxtbold
+    - network: GitHub
+      username: bxtbold
+  sections:
+    education:
+      - institution: Kookmin University
+        area: Mechanical Engineering
+        degree: BS
+        start_date: 2018-03
+        end_date: 2022-02
+        highlights:
+          - 'GPA: 4.04/4.50'
+          - '**Relevant Coursework:** Artificial Intelligence, Automatic Control, Deep Learning, Linear Algebra, Numerical Analysis, Modern Control Engineering, Probability and Statistics'
+    technologies:
+      - label: Programming Languages
+        details: Python, Rust, C/C++, Bash, SQL, JavaScript, HTML, CSS, Latex
+      - label: Technologies
+        details: Linux, Git, Docker, Numpy, Pytorch, PyQt, CMake, Vim, FastAPI, React, MySQL, PostgreSQL
+      - label: Robotics
+        details: ROS/ROS2, Mujoco, Gymnasium, Robosuite, MoveIt, Nav2
+      - label: Languages
+        details: Mongolian (Native), English (Fluent), Korean (Fluent)
+    experience:
+      - company: Plaif
+        position: Robotics Software Engineer, AI Motion Team
+        location: Seongnam-si, South Korea
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Architected and integrated the Pick & Place Solution using ROS2, TCP/IP, and IPC for seamless robotic operations
+          - Developed and maintained cost-saving robot drivers and hardware interfaces for Rainbow Robotics and Robostar
+          - Created custom plug-ins for robot teaching pendants, including camera calibration and vision modules, and built a React-based GUI for real-time system monitoring and control
+          - Streamlined development and deployment processes through docker containerization and docker compose
+      - company: CWSFA
+        position: Robotics Engineer Intern, Dev Team
+        location: Seoul, South Korea
+        start_date: 2022-03
+        end_date: 2022-11
+        highlights:
+          # - Migrated open-source and internal Python and C++ packages from ROS to ROS2, improving compatibility
+          - Enhanced mobile robots' autonomous navigation using SLAM with Nav2 and Cartographer, leading to more accurate self-driving capabilities
+          - Developed intuitive GUIs with Qt for seamless control and scenario management for multiple robotics systems
+          - Designed circuit diagrams and wrote firmware in C for the FADUINO-32TA, integrating it with ROS
+          - Optimized computer vision algorithms for detecting smart farm road lanes, reducing CPU usage by 35%
+          - Designed and implemented a deep learning network for smart farm road lane detection, achieving 95% accuracy in real-time scenarios
+      - company: University of California, Irvine
+        position: Undergraduate Researcher
+        location: CA, USA
+        start_date: 2019-12
+        end_date: 2020-02
+        highlights:
+          # - Conducted robot simulations using ROS, facilitating the development of the HYDRA framework at IAS Lab, UCI, thereby enabling the simulation and testing of advanced robotics functionalities
+          - Utilized Gazebo to simulate both aerial and ground robots, employing SLAM techniques to navigate through maps generated with a lidar sensor, contributing to enhanced robotic autonomy and mapping capabilities.
+    Selected Projects:
+      - company: Personal
+        position: 'Speech-based Basketball Live Boxscore App'
+        start_date: 2024-06
+        end_date: 2024-08
+        highlights:
+          - Developed the server-side of a real-time speech-based basketball live boxscore web application that transcribes and processes live commentary to update game statistics dynamically
+          - 'Tools Used: FastAPI, PostgreSQL, GPT3.5, Whisper, Azure'
+      - company: Daewoong Pharmaceutical
+        position: 'Energy Trend Monitoring System'
+        start_date: 2022-01
+        end_date: 2022-02
+        highlights:
+          - Identified the important factors in charge of energy trends at Daewoong Pharmaceutical factories using EDA
+          - 'Tools Used: Python, Pytorch, Pandas, Numpy'
+      - company: Kookmin University
+        position: 'Capstone Design Project: Autonomous Scooter'
+        start_date: 2021-03
+        end_date: 2021-06
+        highlights:
+          - Led the development of motor control software for Arduino, integrated 3D hardware models with URDF, and implemented autonomous driving using Intel RealSense D435 and ROS on Raspberry Pi 4
+          - 'Tools Used: Python, C, ROS, RPi4, Arduino'
+    # publications:
+    #   - title: 3D Finite Element Analysis of No-Insulation Coils
+    #     authors:
+    #       - Frodo Baggins
+    #       - '***John Doe***'
+    #       - Samwise Gamgee
+    #     doi: 10.1109/TASC.2023.3340648
+    #     date: 2004-01
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 1.5 cm
+      bottom: 1 cm
+      left: 1.5 cm
+      right: 1.5 cm
+    section_title:
+      top: 0.2 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.1 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.1 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0 cm
+      bottom: 0.15 cm
+      horizontal_between_connections: 0.75 cm
