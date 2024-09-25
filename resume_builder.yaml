@@ -34,9 +34,10 @@ cv:
         start_date: 2023-01
         end_date: present
         highlights:
-          - Architected and integrated the Pick & Place Solution using ROS2, TCP/IP, and IPC for seamless robotic operations
-          - Developed and maintained cost-saving robot drivers and hardware interfaces for Rainbow Robotics and Robostar
-          - Created custom plug-ins for robot teaching pendants, including camera calibration and vision modules, and built a React-based GUI for real-time system monitoring and control
+          - Building a RL-based software robotics suite in real-world and simulated settings, based on MuJoCo and ROS2
+          - Architected and integrated the Pick & Place Solution using IPC and TCP/IP for seamless robotic operations
+          - Developed cost-saving custom robot drivers and hardware interfaces for RB-series from Rainbow Robotics
+          - Created custom plug-ins/apps for robot teaching pendants, including camera calibration and vision modules
           - Streamlined development and deployment processes through docker containerization and docker compose
       - company: CWSFA
         position: Robotics Engineer Intern, Dev Team
@@ -45,11 +46,11 @@ cv:
         end_date: 2022-11
         highlights:
           # - Migrated open-source and internal Python and C++ packages from ROS to ROS2, improving compatibility
-          - Enhanced mobile robots' autonomous navigation using SLAM with Nav2 and Cartographer, leading to more accurate self-driving capabilities
+          - Enhanced mobile robots' navigation using SLAM with Nav2, leading to more accurate self-driving capabilities
           - Developed intuitive GUIs with Qt for seamless control and scenario management for multiple robotics systems
           - Designed circuit diagrams and wrote firmware in C for the FADUINO-32TA, integrating it with ROS
           - Optimized computer vision algorithms for detecting smart farm road lanes, reducing CPU usage by 35%
-          - Designed and implemented a deep learning network for smart farm road lane detection, achieving 95% accuracy in real-time scenarios
+          - Designed and implemented a deep learning network for smart farm road lane detection, achieving 95% accuracy
       - company: University of California, Irvine
         position: Undergraduate Researcher
         location: CA, USA
@@ -65,7 +66,7 @@ cv:
         end_date: 2024-08
         highlights:
           - Developed the server-side of a real-time speech-based basketball live boxscore web application that transcribes and processes live commentary to update game statistics dynamically
-          - 'Tools Used: FastAPI, PostgreSQL, GPT3.5, Whisper, Azure'
+          - 'Tools Used: FastAPI, PostgreSQL, Azure, OpenAI APIs (GPT3.5 & Whisper)'
       - company: Daewoong Pharmaceutical
         position: 'Energy Trend Monitoring System'
         start_date: 2022-01
