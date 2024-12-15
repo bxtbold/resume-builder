@@ -11,7 +11,7 @@ pip install rendercv
 `resume.pdf` will be generated once the command is executed.
 ```
 cd resume-builder
-rendercv render resume_builder.yaml --pdf-path resume.pdf
+make resume
 ```
 
 ## Building all available formats
