@@ -1,11 +1,12 @@
 cv:
   name: Bat Nemekhbold
-  email: batnemekhbold@gmail.com
-  # website: https://bxtbold.github.io/
+  # email: batnemekhbold@gmail.com
+  email: batbold78@gmail.com
+  website: https://bxtbold.github.io/
   social_networks:
-    - network: LinkedIn
-      username: bxtbold
     - network: GitHub
+      username: bxtbold
+    - network: LinkedIn
       username: bxtbold
   sections:
     education:
@@ -25,13 +26,13 @@ cv:
         start_date: 2023-01
         end_date: present
         highlights:
-          - Currently developing dual-arm behavior coordination and motion planning for a real-time upper-body robotic system
-          - Built internal robotics tools, including kinematics, collision-checking, motion planning, and trajectory smoother
+          - Currently developing task-space motion planners and optimal controllers for a real-time dual-arm robotic system
+          - Built internal robotics tools, including kinematics, collision-checking, motion planning, and trajectory processing
           # - Accelerated IK solving by 30% through the implementation of a dictionary-based method
           - Designed control and data interfaces for reinforcement and imitation learning systems utilizing MuJoCo and ROS2
           - Automated demonstration collection pipelines, capturing human demonstrations and generating predefined trajectories via motion planning, enabling scalable data acquisition for policy training
           - Architected and integrated motion sequence and task planning systems for various pick-and-place solutions, employing advanced manipulation skills and planning techniques to enhance efficiency and adaptability in robotic operations
-          - Built ROS drivers and hardware interfaces for collaborative robots, improving real-time performance
+          - Built ROS drivers and hardware interfaces for Rainbow Robotics robots, improving real-time performance
           - Defined communication protocols to facilitate interaction and data exchange across various modules and machines
           - Streamlined development and deployment with Docker and CI/CD
       - company: Cheung Won SFA (CWSFA)
@@ -55,14 +56,16 @@ cv:
           # - Conducted robot simulations using ROS, facilitating the development of the HYDRA framework at IAS Lab, UCI, thereby enabling the simulation and testing of advanced robotics functionalities
           - Utilized Gazebo to simulate both aerial and ground robots, employing SLAM techniques to navigate through maps generated with a lidar sensor, contributing to enhanced robotic autonomy and mapping capabilities
     skills:
-      - label: Programming Languages
-        details: Python, C++, Rust, Bash, Java, JavaScript, SQL
-      - label: Robotics
-        details: ROS/ROS2, OMPL, MoveIt, Nav2, Mujoco, Pinocchio, BehaviorTree.CPP
-      - label: Technologies
-        details: Linux, Git, Docker, CMake, Pytorch, Numpy, Scipy, Pandas, Eigen, FastAPI, React, PostgreSQL
       - label: Languages
-        details: Mongolian (Native), English (Fluent), Korean (Fluent)
+        details: Python, C++, Rust, Bash, Java, JavaScript, SQL
+      - label: Robotics Tools
+        details: ROS/ROS2, Mujoco, Pinocchio, OMPL, MoveIt, Nav2
+      - label: Math Tools
+        details: Numpy, Scipy, Pandas, Numba, Pytorch, Eigen, OSQP
+      - label: Other Tools
+        details: Gymnasium, Linux, Git, Docker, CMake, Cython, FastAPI, React, PostgreSQL, Ollama
+      # - label: Languages
+      #   details: Mongolian (Native), English (Fluent), Korean (Fluent)
     Selected Projects:
       - company: Personal
         position: 'Speech-based Basketball Live Boxscore App'
